@@ -11,7 +11,7 @@
   width: 100%;
   height: 100%;
   background-image: radial-gradient(white, #ffe6a2);
-  overflow-x: clip;
+  overflow-x: hidden;
 }
 
 #welcomewrapper {
