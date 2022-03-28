@@ -349,7 +349,7 @@
   color: white;
   width: 90%;
   position: relative;
-  font-size: clamp(0.5rem, 0.7rem, 1.2rem);
+  font-size: clamp(0.5rem, 1rem, 1.75rem);
 }
 
 .staff-work-bg {
