@@ -102,18 +102,15 @@ a:hover {
   text-decoration: none;
 }
 
-#back-icon {
+.arrow-menu {
+  margin-left: 10px;
   margin-right: 10px;
   font-size: 1.3rem;
 }
 
 .menu-separator {
-  margin-right: 10px;
+  /*margin-right: 10px;*/
   margin-left: 10px;
-}
-
-.cooking-type {
-  border: none;
 }
 
 .menu-wrapper {

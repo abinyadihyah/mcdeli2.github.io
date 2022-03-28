@@ -10,14 +10,13 @@
   position: relative;
   width: 100%;
   height: 100%;
-  background-image: radial-gradient(white, #ffe6a2);
+  background-image: radial-gradient(white, #FFE6A2);
   overflow-x: clip;
-  overflow-y: visible;
 }
 
 #welcomewrapper {
   height: 100%;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(255,255,255,0);
   position: relative;
   z-index: 50;
 }
@@ -67,7 +66,7 @@
 
 #vision-mission {
   /*height: 100%;*/
-  background-color: #ff8844;
+  background-color: #FF8844;
   position: relative;
   padding: 5% 0;
   overflow: hidden;
@@ -176,15 +175,16 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(255, 136, 68, 0.39);
   transition: all ease 0.8s;
   opacity: 0;
   align-items: center;
   justify-content: center;
+  background: linear-gradient(rgba(0,0,0,0) 40%, rgba(0,0,0,0.58));
 }
 
 .menu-title {
   color: white;
+  /*bottom: 0;*/
 }
 
 .menu-title-wrapper:hover {
@@ -219,7 +219,7 @@
 }
 
 #didie {
-  margin-right: 10px;
+  /*margin-right: 10px;*/
 }
 
 .gapped3 {
@@ -247,7 +247,7 @@
 }
 
 .b2c {
-  box-shadow: -2px 2px 6px rgba(33, 37, 41, 0.14);
+  box-shadow: -2px 2px 6px rgba(33,37,41,0.14);
   border-radius: 15px;
   height: 100%;
   width: 100%;
@@ -380,7 +380,7 @@
 }
 
 #gentosan {
-  background-color: #df3059;
+  background-color: #DF3059;
 }
 
 #ito-san {
@@ -400,13 +400,13 @@
 }
 
 #our-team {
-  background-color: #fee244;
+  background-color: #FEE244;
   /*padding-top: 20px;*/
   /*padding-bottom: 20px;*/
 }
 
 .container-grid {
-  /* padding-right: 10px; */
+  /*padding-right: 10px;*/
 }
 
 .facility-wrapper {
@@ -425,7 +425,7 @@
 #qac {
   /*padding: 20px 0;*/
   /*height: 60VH;*/
-  background: linear-gradient(52deg, #9bc8f0, #c0e9fd);
+  background: linear-gradient(52deg, #9BC8F0, #C0E9FD);
   position: relative;
 }
 
@@ -480,7 +480,7 @@
   width: 100%;
   height: 100%;
   z-index: 1;
-  background-color: rgba(255, 255, 255, 0.55);
+  background-color: rgba(255,255,255,0.55);
 }
 
 #careerplan .container {
@@ -494,17 +494,13 @@
   position: relative;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
+h1, h2, h3, h4, h5 {
   font-weight: 700;
   color: #404040;
 }
 
 .jpn-text {
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   letter-spacing: 10px;
   font-weight: 500;
   color: #777;
@@ -539,14 +535,14 @@ h5 {
 
 #footer hr {
   /*height: 1.2px;*/
-  border-top: 1.2px solid #fcb22b;
+  border-top: 1.2px solid #FCB22B;
 }
 
 #linkedin-icon {
   /*height: 48px;*/
   margin-right: 10px;
   font-size: 2rem;
-  color: #0076b4;
+  color: #0076B4;
 }
 
 #footer a {
@@ -558,13 +554,13 @@ h5 {
 }
 
 #footer a:hover {
-  color: #fcb22b;
+  color: #FCB22B;
 }
 
 .icon-identity {
   font-size: 1.3rem;
   margin-right: 1rem;
-  color: #fcb22b;
+  color: #FCB22B;
 }
 
 .mcdeli-ident {
@@ -599,11 +595,11 @@ h5 {
 
 .btn. read-more {
   display: inline-block;
-  background-color: #fcb22b;
+  background-color: #FCB22B;
 }
 
 .btn.read-more {
-  background-color: #fcb22b;
+  background-color: #FCB22B;
   color: #ffffff;
   font-weight: 600;
   display: inline-block;
@@ -612,7 +608,7 @@ h5 {
   border-radius: 15px;
   width: 200px;
   transition: all ease 0.6s;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.12);
 }
 
 #jobstreet {
@@ -621,12 +617,12 @@ h5 {
 }
 
 .btn.read-more:hover {
-  background-color: rgba(255, 255, 255, 0.04);
+  background-color: rgba(255,255,255,0.04);
   color: #fcb22b;
 }
 
 #jobstreet:hover {
-  background-color: rgba(255, 255, 255, 0.23);
+  background-color: rgba(255,255,255,0.23);
   color: #0076b4;
 }
 
@@ -706,36 +702,31 @@ h5 {
   /*color: white;*/
 }
 
-#navcol-2 .nav-link,
-.dropdown-item {
+#navcol-2 .nav-link, .dropdown-item {
   font-weight: 700;
   color: #404040;
   transition: all ease 0.6s;
 }
 
 #navcol-2 .nav-link:hover {
-  color: #f47729;
+  color: #F47729;
 }
 
 .carousel-item {
   border-radius: 15px;
 }
 
-.welcome-text h1,
-.welcome-text h2,
-.welcome-text h3,
-.welcome-text h4,
-.welcome-text h5 {
+.welcome-text h1, .welcome-text h2, .welcome-text h3, .welcome-text h4, .welcome-text h5 {
   font-weight: 700;
   color: #f47729;
 }
 
 .jpn-text:after {
-  content: "";
+  content: '';
   height: 2px;
   width: 30%;
   position: absolute;
-  background-color: #fcb22b;
+  background-color: #FCB22B;
   bottom: -11px;
   left: 0;
   transform: left;
@@ -779,7 +770,7 @@ h5 {
 }
 
 .director-info hr {
-  border-top: 1.2px solid #fcb22b;
+  border-top: 1.2px solid #FCB22B;
   width: 100%;
   margin: 0;
 }
@@ -853,7 +844,7 @@ h5 {
 .company-gallery .slick-next {
   /*position: absolute;*/
   top: 0;
-  background-color: #fee244;
+  background-color: #FEE244;
   right: 14%;
   border-radius: 100%;
   height: 55px;
@@ -868,7 +859,7 @@ h5 {
 
 .company-gallery .slick-pref {
   top: 0;
-  background-color: #fee244;
+  background-color: #FEE244;
   right: 10%;
   border-radius: 100%;
   height: 55px;
@@ -885,7 +876,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: greyscale;
   -webkit-backface-visibility: hidden;
-  font-family: "Gotham Rounded", sans-serif;
+  font-family: 'Gotham Rounded', sans-serif;
   color: #666;
 }
 
@@ -1002,7 +993,7 @@ p {
 }
 
 #windy-san {
-  background-color: #75c45c;
+  background-color: #75C45C;
 }
 
 .carousel-staff-rev {
@@ -1018,11 +1009,11 @@ p {
 }
 
 #megumi-san {
-  background-color: #fc93b6;
+  background-color: #FC93B6;
 }
 
 .slick-next {
-  background-color: #fee244;
+  background-color: #FEE244;
   right: 10%;
   border-radius: 100%;
   height: 55px;
@@ -1036,7 +1027,7 @@ p {
 }
 
 .slick-pref {
-  background-color: #fee244;
+  background-color: #FEE244;
   right: 10%;
   border-radius: 100%;
   height: 55px;
@@ -1072,7 +1063,7 @@ p {
   font-size: 1.7rem;
   margin-right: 0.5rem;
   font-weight: 600;
-  font-family: "Noto Sans JP";
+  font-family: 'Noto Sans JP';
   color: #888;
 }
 
@@ -1123,11 +1114,14 @@ p {
 .btn.btn-primary {
 }
 
-.cooking-type {
-  margin-right: 10px;
+.cooking-boil {
+  margin-right: 7px;
+  background-color: #589fe3;
+  font-size: 12px;
 }
 
-.pic-shop {
+.pic-shop-detail {
+  object-fit: cover;
   width: 100%;
   height: 100%;
 }
@@ -1206,8 +1200,7 @@ tr {
   bottom: 0;
 }
 
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #fcb22b;
   border-radius: 0;
@@ -1419,3 +1412,86 @@ a {
   bottom: 0px;
   left: 0;
 }
+
+.menu-title-jpn {
+  color: white;
+  font-family: 'Noto Sans JP';
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+@media (max-width: 991px) {
+  .menu-title-wrapper {
+    opacity: 100%;
+  }
+}
+
+.menu-item {
+  color: #555555;
+  margin-bottom: 0.4em;
+  margin-top: 0px;
+}
+
+line-e {
+}
+
+.table-code {
+}
+
+.table-code {
+  background-color: #F47728;
+  font-weight: 400;
+}
+
+.title-product {
+  margin-bottom: 5px;
+}
+
+.category-items {
+  margin-bottom: 10px;
+}
+
+.category-items-name {
+  background-color: white;
+  padding: 10px;
+  border-radius: 0px 00px 15px 15px;
+}
+
+.category-items-pic {
+  border-radius: 15px 15px 0 0;
+  overflow: hidden;
+}
+
+.cooking-type .deepfry {
+  font-size: 13px;
+}
+
+.cook-fry {
+  background-color: #f47729;
+  font-size: 12px;
+  margin-right: 7px;
+}
+
+.cooking-micro {
+  background-color: #df3059;
+  font-size: 12px;
+  margin-right: 7px;
+}
+
+.cooking-type {
+  border: none;
+  font-size: 12px;
+}
+
+.cooking-thawing {
+  background-color: #2CD3D3;
+  font-size: 12px;
+  margin-right: 7px;
+}
+
+.pic-shop {
+  width: 100%;
+  height: 15em;
+  object-fit: cover;
+}
+
