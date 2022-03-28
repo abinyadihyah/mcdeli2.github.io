@@ -349,6 +349,7 @@
   color: white;
   width: 90%;
   position: relative;
+  font-size: clamp(0.5rem, 0.7rem, 1.2rem);
 }
 
 .staff-work-bg {
@@ -1497,8 +1498,10 @@ line-e {
   object-fit: cover;
 }
 
-.max-height-400 {
-  max-height: 400px;
+@media (min-width: 992px) {
+  .max-height-400 {
+    max-height: 400px;
+  }
 }
 
 .menu-list {
@@ -1508,5 +1511,22 @@ line-e {
   padding: 0;
   overflow: hidden;
   margin-bottom: 20px;
+}
+
+.padding-descr {
+  /*padding: 20px 20px 20px 20px;*/
+}
+
+.padding-side-10 {
+  padding: 10px;
+}
+
+.padding-side-10 {
+  padding: 10px !important;
+}
+
+.table-spec {
+  margin-bottom: 10px;
+  font-size: clamp(10px, 1rem, 1rem);
 }
 
