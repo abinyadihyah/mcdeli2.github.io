@@ -1417,6 +1417,7 @@ a {
 
 .menu-title-jpn {
   color: white;
+  font-weight: 400;
   font-family: 'Noto Sans JP';
   font-weight: 400;
   letter-spacing: 5px;
@@ -1433,6 +1434,7 @@ a {
   color: #555555;
   margin-bottom: 0.4em;
   margin-top: 0px;
+  /*font-weight: 400;*/
 }
 
 line-e {
@@ -1500,7 +1502,7 @@ line-e {
 
 @media (min-width: 992px) {
   .max-height-400 {
-    max-height: 400px;
+    max-height: 470px;
   }
 }
 
