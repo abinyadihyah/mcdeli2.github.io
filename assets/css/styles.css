@@ -508,6 +508,7 @@ h1, h2, h3, h4, h5 {
   color: #777;
   position: relative;
   margin-bottom: 1.5rem;
+  display: none;
 }
 
 .mcdelifooter {
@@ -1422,6 +1423,7 @@ a {
   font-weight: 400;
   letter-spacing: 5px;
   font-size: clamp(0.70rem, 1rem, 1.1rem);
+  display: none;
 }
 
 @media (max-width: 991px) {
@@ -1434,6 +1436,7 @@ a {
   color: #555555;
   margin-bottom: 0.4em;
   margin-top: 0px;
+  display: block;
   /*font-weight: 400;*/
 }
 
