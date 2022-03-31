@@ -1436,7 +1436,7 @@ a {
   color: #555555;
   margin-bottom: 0.4em;
   margin-top: 0px;
-  display: block;
+  /*display: block;*/
   /*font-weight: 400;*/
 }
 
@@ -1533,5 +1533,9 @@ line-e {
 .table-spec {
   margin-bottom: 10px;
   font-size: clamp(10px, 1rem, 1rem);
+}
+
+.table-catalog {
+  width: 95%;
 }
 
