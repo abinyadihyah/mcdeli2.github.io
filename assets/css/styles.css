@@ -166,7 +166,7 @@
   width: 100%;
   position: relative;
   margin: 0px;
-  /*background: url("../../assets/img/bg4.svg") right / auto space;*/
+  /*background: url("../../assets/img/bg4.svg?h=e9fee315aa21953529d8a49543096dd4") right / auto space;*/
 }
 
 .menu-title-wrapper {
@@ -263,12 +263,12 @@
 
 #ourproductb2b {
   /*padding: 20px 0;*/
-  background: url("../../assets/img/bg2.svg") center / cover;
+  background: url("../../assets/img/bg2.svg?h=49d3a7576ffce60c54edc48916f30dfd") center / cover;
 }
 
 #ourproductb2c {
   padding: 20px 0;
-  background: url("../../assets/img/bg1.svg") center / auto space;
+  background: url("../../assets/img/bg1.svg?h=a4b5e37fd28a7411e8b523ab457b84cf") center / auto space;
 }
 
 .fadeouthover {
@@ -417,7 +417,7 @@
 
 #facility {
   padding: 20px 0;
-  background: url("../../assets/img/bg4.svg") right / cover space;
+  background: url("../../assets/img/bg4.svg?h=e9fee315aa21953529d8a49543096dd4") right / cover space;
 }
 
 #rice-cooking-navigator {
@@ -471,7 +471,7 @@
 
 #careerplan {
   height: 40vh;
-  background: url("../../assets/img/Screenshot_55.jpg") top / cover no-repeat;
+  background: url("../../assets/img/Screenshot_55.jpg?h=fc77c11ab592bac308e9558738a183e8") top / cover no-repeat;
   position: relative;
 }
 
