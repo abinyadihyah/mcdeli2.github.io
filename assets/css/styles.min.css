@@ -295,6 +295,26 @@ html {
   }
 }
 
+/* slick start */
+
+.slider-nav .slick-slide {
+  cursor: pointer;
+}
+
+.slick-slide.is-active .slider-point-text {
+  color: #555;
+  font-weight: 600;
+  /*background-color: #00aaaa;*/
+}
+
+.slick-slide.is-active .slider-point-number {
+  color: #fcb22b;
+  font-weight: 600;
+  /*background-color: #00aaaa;*/
+}
+
+/* slick end */
+
 .navbarupper {
   height: 2px;
   width: 100%;
@@ -307,13 +327,13 @@ html {
   position: relative;
   width: 100%;
   height: 100%;
-  background-image: radial-gradient(white, #FFE6A2);
+  background-image: radial-gradient(white, #ffe6a2);
   overflow-x: clip;
 }
 
 #welcomewrapper {
   height: 100%;
-  background-color: rgba(255,255,255,0);
+  background-color: rgba(255, 255, 255, 0);
   position: relative;
   z-index: 50;
 }
@@ -358,7 +378,7 @@ html {
 
 #vision-mission {
   /*height: 100%;*/
-  background-color: #FF8844;
+  background-color: #ff8844;
   position: relative;
   padding: 5% 0;
   overflow: hidden;
@@ -460,7 +480,7 @@ html {
   opacity: 0;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(rgba(0,0,0,0) 40%, rgba(0,0,0,0.58));
+  background: linear-gradient(rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.58));
 }
 
 .menu-title {
@@ -491,7 +511,7 @@ html {
 }
 
 .b2c {
-  box-shadow: -2px 2px 6px rgba(33,37,41,0.14);
+  box-shadow: -2px 2px 6px rgba(33, 37, 41, 0.14);
   border-radius: 15px;
   height: 100%;
   width: 100%;
@@ -607,7 +627,7 @@ html {
 }
 
 #gentosan {
-  background-color: #DF3059;
+  background-color: #df3059;
 }
 
 #ito-san {
@@ -627,7 +647,7 @@ html {
 }
 
 #our-team {
-  background-color: #FEE244;
+  background-color: #fee244;
   /*padding-top: 20px;*/
   /*padding-bottom: 20px;*/
 }
@@ -648,7 +668,7 @@ html {
 #qac {
   /*padding: 20px 0;*/
   /*height: 60VH;*/
-  background: linear-gradient(52deg, #9BC8F0, #C0E9FD);
+  background: linear-gradient(52deg, #9bc8f0, #c0e9fd);
   position: relative;
 }
 
@@ -699,7 +719,7 @@ html {
   width: 100%;
   height: 100%;
   z-index: 1;
-  background-color: rgba(255,255,255,0.55);
+  background-color: rgba(255, 255, 255, 0.55);
 }
 
 #careerplan .container {
@@ -719,7 +739,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .jpn-text {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   letter-spacing: 10px;
   font-weight: 500;
   color: #777;
@@ -749,14 +769,14 @@ h1, h2, h3, h4, h5 {
 
 #footer hr {
   /*height: 1.2px;*/
-  border-top: 1.2px solid #FCB22B;
+  border-top: 1.2px solid #fcb22b;
 }
 
 #linkedin-icon {
   /*height: 48px;*/
   margin-right: 10px;
   font-size: 2rem;
-  color: #0076B4;
+  color: #0076b4;
 }
 
 #footer a {
@@ -768,13 +788,13 @@ h1, h2, h3, h4, h5 {
 }
 
 #footer a:hover {
-  color: #FCB22B;
+  color: #fcb22b;
 }
 
 .icon-identity {
   font-size: 1.3rem;
   margin-right: 1rem;
-  color: #FCB22B;
+  color: #fcb22b;
 }
 
 .mcdeli-ident {
@@ -808,7 +828,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .btn.read-more {
-  background-color: #FCB22B;
+  background-color: #fcb22b;
   color: #ffffff;
   font-weight: 600;
   display: inline-block;
@@ -817,7 +837,7 @@ h1, h2, h3, h4, h5 {
   border-radius: 15px;
   width: 200px;
   transition: all ease 0.6s;
-  box-shadow: 0px 2px 4px rgba(0,0,0,0.12);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
 }
 
 #jobstreet {
@@ -826,12 +846,12 @@ h1, h2, h3, h4, h5 {
 }
 
 .btn.read-more:hover {
-  background-color: rgba(255,255,255,0.04);
+  background-color: rgba(255, 255, 255, 0.04);
   color: #fcb22b;
 }
 
 #jobstreet:hover {
-  background-color: rgba(255,255,255,0.23);
+  background-color: rgba(255, 255, 255, 0.23);
   color: #0076b4;
 }
 
@@ -914,7 +934,7 @@ h1, h2, h3, h4, h5 {
 }
 
 #navcol-2 .nav-link:hover {
-  color: #F47729;
+  color: #f47729;
 }
 
 .carousel-item {
@@ -927,11 +947,11 @@ h1, h2, h3, h4, h5 {
 }
 
 .jpn-text:after {
-  content: '';
+  content: "";
   height: 2px;
   width: 30%;
   position: absolute;
-  background-color: #FCB22B;
+  background-color: #fcb22b;
   bottom: -11px;
   left: 0;
   transform: left;
@@ -975,7 +995,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .director-info hr {
-  border-top: 1.2px solid #FCB22B;
+  border-top: 1.2px solid #fcb22b;
   width: 100%;
   margin: 0;
 }
@@ -1037,7 +1057,7 @@ h1, h2, h3, h4, h5 {
 .company-gallery .slick-next {
   /*position: absolute;*/
   top: 0;
-  background-color: #FEE244;
+  background-color: #fee244;
   right: 14%;
   border-radius: 100%;
   height: 55px;
@@ -1052,7 +1072,7 @@ h1, h2, h3, h4, h5 {
 
 .company-gallery .slick-pref {
   top: 0;
-  background-color: #FEE244;
+  background-color: #fee244;
   right: 10%;
   border-radius: 100%;
   height: 55px;
@@ -1069,7 +1089,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: greyscale;
   -webkit-backface-visibility: hidden;
-  font-family: 'Gotham Rounded', sans-serif;
+  font-family: "Gotham Rounded", sans-serif;
   color: #666;
 }
 
@@ -1181,7 +1201,7 @@ p {
 }
 
 #windy-san {
-  background-color: #75C45C;
+  background-color: #75c45c;
 }
 
 .carousel-staff-rev {
@@ -1197,11 +1217,11 @@ p {
 }
 
 #megumi-san {
-  background-color: #FC93B6;
+  background-color: #fc93b6;
 }
 
 .slick-next {
-  background-color: #FEE244;
+  background-color: #fee244;
   right: 10%;
   border-radius: 100%;
   height: 55px;
@@ -1215,7 +1235,7 @@ p {
 }
 
 .slick-pref {
-  background-color: #FEE244;
+  background-color: #fee244;
   right: 10%;
   border-radius: 100%;
   height: 55px;
@@ -1247,7 +1267,7 @@ p {
   font-size: 1.7rem;
   margin-right: 0.5rem;
   font-weight: 600;
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   color: #888;
 }
 
@@ -1535,10 +1555,10 @@ a {
 .menu-title-jpn {
   color: white;
   font-weight: 400;
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-weight: 400;
   letter-spacing: 5px;
-  font-size: clamp(0.70rem, 1rem, 1.1rem);
+  font-size: clamp(0.7rem, 1rem, 1.1rem);
   display: none;
 }
 
@@ -1557,7 +1577,7 @@ a {
 }
 
 .table-code {
-  background-color: #F47728;
+  background-color: #f47728;
   font-weight: 400;
 }
 
@@ -1598,7 +1618,7 @@ a {
 }
 
 .cooking-thawing {
-  background-color: #2CD3D3;
+  background-color: #2cd3d3;
   font-size: 12px;
   margin-right: 7px;
 }
